@@ -1,0 +1,17 @@
+Скрипт запускается в консоли, без интерфейса, выводит информацию о процессе скачивания (этапы)
+Информацию о ссылках берет из файла names.txt и готовые видео в формате mp4 находятся в папке "Загруженное".
+Выходную папку скрипт создает сам, текстовый файл должен быть заполнен ссылками на видео до запуска программы
+
+Каждая ссылка в файле должна начинаться с новой строки;
+В строках кроме, собственно, ссылок ничего быть не должно;
+Поддерживаются ссылки на видео через сам youtube (youtu.be), ссылки браузерные (youtube.com/watch), ссылки на видео из плейлистов (youtube.com/watch/list)
+
+Пример names.txt:
+
+https://www.youtube.com/watch?v=uDmapD_7PGk
+https://www.youtube.com/watch?v=5s7_WbiR79E
+https://www.youtube.com/watch?v=0qanF-91aJo
+https://youtu.be/Tu96yevGMEA
+https://www.youtube.com/watch?v=6El8B8hJ4Sg&list=RDMM&index=2
+https://youtu.be/4591dCHe_sE
+https://www.youtube.com/watch?v=H_3JiTfmuzg&list=RDMM&index=4
